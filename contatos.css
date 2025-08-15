@@ -1,0 +1,42 @@
+.contato-bloco {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    background: rgba(75, 0, 130, 0.7); 
+    border-radius: 12px;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.contato-bloco h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.contato-bloco p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+
+.contato-redes {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.contato-redes a i {
+    font-size: 40px;
+    transition: transform 0.3s, color 0.3s;
+}
+
+
+.contato-redes a:hover i {
+    transform: scale(1.2);
+}
+
+
+.contato-redes a[aria-label="Discord"] i { color: #5865F2; }
+.contato-redes a[aria-label="Youtube"] i { color: #FF0000; }
+.contato-redes a[aria-label="Instagram"] i { color: #E1306C; }
